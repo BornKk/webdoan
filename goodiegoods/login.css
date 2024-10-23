@@ -1,0 +1,40 @@
+/* Style cho Header */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #2b572b;
+    color: white;
+}
+
+.header-container .logo h1 {
+    margin: 0;
+    font-size: 24px;
+    color: white;
+}
+
+.header-container nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.header-container nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.header-container .login-icon {
+    font-size: 24px;
+}
+
+.header-container .login-icon a {
+    color: white;
+    text-decoration: none;
+}
+
+.header-container .login-icon a:hover {
+    color: #e0f5e0;
+}

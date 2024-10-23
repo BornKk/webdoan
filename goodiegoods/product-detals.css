@@ -1,0 +1,134 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Header Styles */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Product Detail Section */
+.product-detail {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px auto;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    gap: 30px;
+}
+
+.product-image img {
+    width: 400px;
+    height: auto;
+}
+
+.product-info {
+    max-width: 600px;
+}
+
+.product-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.product-description {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.product-price {
+    font-size: 24px;
+    color: #28a745;
+    margin-bottom: 15px;
+}
+
+.product-options label {
+    margin-right: 10px;
+}
+
+.product-options select {
+    margin-right: 20px;
+    padding: 5px;
+    border: 1px solid #ddd;
+}
+
+.add-to-cart {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.add-to-cart:hover {
+    background-color: #218838;
+}
+
+/* Related Products */
+.related-products {
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    margin: 20px auto;
+}
+
+.related-products h2 {
+    margin-bottom: 20px;
+}
+
+.product-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.product-item {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+    width: 150px;
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+}
+
+.product-item h3 {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.product-item p {
+    color: #28a745;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
