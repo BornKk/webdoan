@@ -1,0 +1,99 @@
+/* Chi tiết sản phẩm */
+.product-detail {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.product-detail-container {
+    display: flex;
+    gap: 40px;
+}
+
+.product-image img {
+    width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-info {
+    flex: 1;
+}
+
+.product-info h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.product-info .price {
+    font-size: 1.5rem;
+    color: #6b8e23;
+    margin-bottom: 15px;
+}
+
+.product-info .description {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.quantity-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.quantity-container label {
+    font-size: 1rem;
+    margin-right: 10px;
+}
+
+.quantity-container input[type="number"] {
+    width: 60px;
+    padding: 5px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.add-to-cart-btn {
+    padding: 10px 20px;
+    background-color: #6b8e23;
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #4e6917;
+}
+/* Container chính cho trang chi tiết sản phẩm và quảng cáo */
+.product-detail-container {
+    display: flex;
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Sidebar cho quảng cáo */
+.sidebar {
+    flex: 0 0 150px; /* Tăng chiều rộng lên 150px để ảnh quảng cáo rộng hơn */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0; /* Loại bỏ khoảng cách bên trong */
+    margin: 0; /* Đảm bảo sidebar không có khoảng cách so với cạnh trang */
+}
+
+/* Ảnh quảng cáo trong sidebar */
+.ad img {
+    width: 100%;
+    max-width: 150px; /* Tăng chiều rộng tối đa của ảnh quảng cáo */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

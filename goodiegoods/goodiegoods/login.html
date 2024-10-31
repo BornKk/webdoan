@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Nhập - Organic Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login.css">
+    <!-- Liên kết FontAwesome cho biểu tượng -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <!-- Header (giống với trang chủ) -->
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="img/logo.png" alt="Organicfood Logo">
+            </div>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Trang chủ</a></li>
+                    <li><a href="#">Giới thiệu</a></li>
+                    <li class="dropdown">
+                        <a href="#">Sản phẩm ▼</a>
+                        <ul class="dropdown-content">
+                            <li><a href="#">Rau củ hữu cơ</a></li>
+                            <li><a href="#">Trái cây tươi</a></li>
+                            <li><a href="#">Thực phẩm sạch</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Liên hệ</a></li>
+                </ul>
+            </nav>
+            <div class="header-right">
+                <div class="search-box">
+                    <input type="text" placeholder="Tìm kiếm sản phẩm...">
+                    <button type="button">🔍</button>
+                </div>
+                <div class="cart">
+                    <a href="#">
+                        <span class="cart-count">0</span> VND
+                        <img src="img/cart.jpg" alt="Cart">
+                    </a>
+                </div>
+                <div class="login-icon">
+                    <a href="login.html">
+                        <i class="fas fa-user-circle"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Trang đăng nhập -->
+    <section class="login-page">
+        <div class="login-container">
+            <h2>Đăng Nhập</h2>
+            <form id="login-form">
+                <div class="form-group">
+                    <label for="username">Tài khoản:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Mật khẩu:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit" class="btn-login">Đăng Nhập</button>
+            </form>
+            <p class="register-link">
+                Chưa có tài khoản? <a href="#">Đăng Ký</a>
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer (giống với trang chủ) -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-about">
+                <h3>Organic Shop</h3>
+                <p>Mang đến cho bạn những sản phẩm hữu cơ tốt nhất từ thiên nhiên.</p>
+                <p>Email: contact@organicshop.com</p>
+                <p>Điện thoại: +84 123 456 789</p>
+            </div>
+            <div class="footer-links">
+                <h4>Liên kết nhanh</h4>
+                <ul>
+                    <li><a href="index.html">Trang Chủ</a></li>
+                    <li><a href="#">Sản Phẩm</a></li>
+                    <li><a href="#">Về Chúng Tôi</a></li>
+                    <li><a href="#">Liên Hệ</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h4>Kết nối với chúng tôi</h4>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Organic Shop. Được thiết kế bởi đội ngũ Organic.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="login.js"></script>
+</body>
+</html>
