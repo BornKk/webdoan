@@ -4,20 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Đăng Nhập - Organic Shop</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="login.css">
     <!-- Liên kết FontAwesome cho biểu tượng -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
+    <!-- Header (giống với trang chủ) -->
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="img/logo.png" alt="Organicfood Logo">
+            </div>
+            <div class="header-right">
+                <div class="cart">
+                </div>
+                <div class="login-icon">
+                    <a href="login.html">
+                        <i class="fas fa-user-circle"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
     <!-- Trang đăng nhập -->
-    <div class="login-page">
+    <section class="login-page">
         <div class="login-container">
             <h2>Đăng Nhập</h2>
-            <form action="#" method="post">
+            <form id="login-form">
                 <div class="form-group">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
+                    <label for="username">Tài khoản:</label>
+                    <input type="text" id="username" name="username" required>
                 </div>
                 <div class="form-group">
                     <label for="password">Mật khẩu:</label>
@@ -29,6 +47,48 @@
                 Chưa có tài khoản? <a href="#">Đăng Ký</a>
             </p>
         </div>
-    </div>
+    </section>
+
+    <!-- Footer (giống với trang chủ) -->
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Phần thông tin liên hệ -->
+            <div class="footer-about">
+                <h3>Organic Shop</h3>
+                <p>Mang đến cho bạn những sản phẩm hữu cơ tốt nhất từ thiên nhiên.</p>
+                <p>Email: contact@GoodieGoods.com</p>
+                <p>Điện thoại: 0365883102</p>
+            </div>
+    
+            <!-- Phần các liên kết quan trọng -->
+            <div class="footer-links">
+                <h4>Liên kết nhanh</h4>
+                <ul>
+                    <li><a href="index.html">Trang Chủ</a></li>
+                    <li><a href="product.html">Sản Phẩm</a></li>
+                    <li><a href="about.html">Về Chúng Tôi</a></li>
+                    <li><a href="contact.html">Liên Hệ</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+    
+            <!-- Phần các biểu tượng mạng xã hội -->
+            <div class="footer-social">
+                <h4>Kết nối với chúng tôi</h4>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Organic Shop. Được thiết kế bởi đội ngũ Organic.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="login.js"></script>
 </body>
 </html>

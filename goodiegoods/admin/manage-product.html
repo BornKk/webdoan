@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản Lý Sản Phẩm</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="admin-dashboard">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <h2>ADMIN</h2>
+            <nav>
+                <a href="dashboard.html"> <i class="fas fa-home"></i> Trang chính</a>
+                <a href="manage-category.html"> <i class="fas fa-list"></i> Quản lý danh mục</a>
+                <a href="manage-product.html" class="active"> <i class="fas fa-box"></i> Quản lý sản phẩm</a>
+                <a href="manage-user.html"> <i class="fas fa-users"></i> Quản lý người dùng</a>
+                <a href="manage-order.html"> <i class="fas fa-shopping-cart"></i> Quản lý hóa đơn</a>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="content">
+            <header class="top-bar">
+                <input type="text" placeholder="Search...">
+                <a href="#" class="logout-button">Đăng xuất</a>
+            </header>
+
+            <!-- Product Management Section -->
+            <section class="management-section">
+                <h1>Quản Lý Sản Phẩm</h1>
+                <button class="add-button">Thêm Sản Phẩm</button>
+                <table class="management-table">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Tên Sản Phẩm</th>
+                            <th>Giá</th>
+                            <th>Hành động</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Táo</td>
+                            <td>50,000 VNĐ</td>
+                            <td>
+                                <button class="edit-button">Sửa</button>
+                                <button class="delete-button">Xóa</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Rau Xanh</td>
+                            <td>20,000 VNĐ</td>
+                            <td>
+                                <button class="edit-button">Sửa</button>
+                                <button class="delete-button">Xóa</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
